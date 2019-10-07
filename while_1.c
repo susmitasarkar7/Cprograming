@@ -6,7 +6,7 @@ void main()
     {
         int x=100;
         printf("\n%d..%d",i,x);
-        x = x+1;
-        i = i+1;
+        x += 1;   //  can also be written as x = x+1
+        i += 1;   //  can also be written as i = i+1
     }
 }
