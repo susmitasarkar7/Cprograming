@@ -5,7 +5,7 @@ void main()
     int mul =1;
     int odd;
     int i;
-    for ( i = 0; i <= 4; i++)
+    for ( i = 0; i < sizeof(n)/sizeof(int); i++) // Instead of writing the length of the array manually, you can find the length of the array by this code "sizeof(n)/sizeof(int)" which returns the length of array
     {
         odd = n[i]%2;
         printf("Odd: %d\n", odd);
