@@ -3,9 +3,9 @@
 void main() {
     char first[80], second[80];
     printf("Enter a string:");
-    gets(first);
+    scanf("%s", first);
     printf("Enter another string:");
-    gets(second);
+    scanf("%s", second);
     strcat(first, second);
     printf("\nThe two string joined together: %s\n", first);
 }
