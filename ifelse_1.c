@@ -8,7 +8,7 @@ void main() {
 
     if(gross_salary<10000)
         net_salary= gross_salary;
-    if(gross_salary>=10000)
+    else if(gross_salary>=10000)                        // the file name is ifelse and the "else" was missing on this line
         net_salary= gross_salary- 0.15*gross_salary;
     
     printf("\nNet salary is Rs.%.2f\n", net_salary);

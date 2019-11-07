@@ -10,7 +10,7 @@ void main()
     while (x > 0)
     {
         fact = fact * x; /* factorial calculation*/
-        x=x-1;
+        x -= 1; //can also be written as x=x-1;
     }
     printf("Factorial is %ld",fact);
 }

@@ -5,13 +5,13 @@ void main( )
     // for(i=0; i<=5; i++ )
     for (num=2,sum=0; ;)
     {
-        sum = sum + num;
+        sum += num; //can also be written as sum = sum + num
         printf("sum %d\n", sum);
         if (num > 10){
             break;
         }
             
-        num=num+1;
+        num += 1; // can also be written as num=num+1
         printf("num %d\n", num);
     }
     printf("%d",sum);
