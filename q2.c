@@ -13,12 +13,25 @@ void main()
         rem = num % 10;
         decimal_val = decimal_val + rem * base;
         num = num / 10 ;
+        printf("num:%d \n", num);
         base = base * 2;
     }
 
     printf("The Binary number is = %d \n", binary_val);
     printf("Its Decimal equivalent is = %d \n", decimal_val);
 }
+
+// num=11
+// r=1
+// d=0+1*1 = 1
+// n=11/10=1.1
+// b=1*2=2
+
+// r=1.1
+// d=1+1.1*2=3.2
+// n=0.11
+// b=2*2=4
+
 
 // Program Explanation
 // 
